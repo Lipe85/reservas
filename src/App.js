@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 
 import Rotas from './routes';
 import Header from './components/Header';
+import history from './services/history';
 import store from './store';
 
 function App() {
